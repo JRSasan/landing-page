@@ -3,6 +3,11 @@
     src: url(font-family/Omnes\ Light.woff);
 }
 
+@font-face {
+    font-family: "alt-gothic";
+    src: url(font-family/AlternateGotNo3D.ttf);
+}
+
 *,
 *::before,
 *::after {
@@ -35,5 +40,28 @@ a {
     font-family: "omnes";
     color: white;
     font-size: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2012d;
+    height: 60vh;
+}
+
+.hero-text {
+    color: white;
+    width: 500px;
+}
+
+.main-text {
+    font-family: "alt-gothic";
+    font-size: 48px;
+}
+
+.secondary-text {
+    font-family: "omnes";
+    font-size: 18px;
 }
 
