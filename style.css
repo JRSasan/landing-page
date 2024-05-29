@@ -117,5 +117,42 @@ a {
     text-align: right;
     font-family: "alt-gothic";
 }
+
+.sign-up-section {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-box {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: #e5e7eb;
+    background-color: #e2012d;
+    padding: 30px 100px;
+}
+
+.sign-up-text > h3 {
+    font-family: "alt-gothic";
+    font-size: 24px;
+}
+
+.sign-up-text > span {
+    font-family: "omnes";
+    font-size: 16px;
+}
+
+.sign-up-button {
+    font-size: 16px;
+    font-family: "alt-gothic";
+    padding: 10px 24px;
+    color: #e5e7eb;
+    background-color: #e2012d;
+    border: 3px solid #e5e7eb;
+    border-radius: 5px;
+}
     
 
