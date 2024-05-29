@@ -154,5 +154,15 @@ a {
     border: 3px solid #e5e7eb;
     border-radius: 5px;
 }
-    
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+    color: #e5e7eb;
+    font-family: "omnes";
+    font-weight: 900;
+}
 
