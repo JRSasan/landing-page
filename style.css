@@ -22,8 +22,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: white;
     padding: 1vw 10vw;
+}
+
+.name {
+    font-family: "alt-gothic";
+    font-size: 30px;
+    color: #15B392;
 }
 
 .menu>ul {
@@ -37,16 +43,16 @@ li {
 
 a {
     text-decoration: none;
-    font-family: "omnes";
-    color: white;
-    font-size: 18px;
+    font-family: "alt-gothic";
+    color:  #15B392;
+    font-size: 26px;
 }
 
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e2012d;
+    background-color: #15B392;
     height: 60vh;
 }
 
@@ -63,6 +69,7 @@ a {
 .secondary-text {
     font-family: "omnes";
     font-size: 18px;
+    color: white;
 }
 
 .roster {
@@ -73,18 +80,49 @@ a {
 .roster-heading {
     margin-top: 20px;
     margin-bottom: 30px;
+    color: #15B392;
 }
 
 .players {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     gap: 52px;
     flex-wrap: wrap;
     padding-bottom: 100px;
 }
 
+.info-set {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.image-set {
+    display: flex;
+    flex-direction: column;
+}
+
 .player-info {
-    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 500px;
+    gap: 10px;
+}
+
+.player-info > h1 {
+    color:#15B392;
+}
+
+.player-info > p {
+    font-size: 20px;
+}
+
+.player-info > a {
+    color: black;
+    font-family: "alt-gothic";
 }
 
 .player-img {
@@ -131,7 +169,7 @@ a {
     justify-content: space-between;
     border-radius: 10px;
     color: #e5e7eb;
-    background-color: #e2012d;
+    background-color: #15B392;
     padding: 30px 100px;
 }
 
@@ -150,7 +188,7 @@ a {
     font-family: "alt-gothic";
     padding: 10px 24px;
     color: #e5e7eb;
-    background-color: #e2012d;
+    background-color: #15B392;
     border: 3px solid #e5e7eb;
     border-radius: 5px;
 }
