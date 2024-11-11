@@ -77,10 +77,22 @@ a {
     font-family: "alt-gothic";
 }
 
+.help {
+    text-align: center;
+    font-family: "alt-gothic";
+    background-color: #15B392;
+}
+
 .roster-heading {
     margin-top: 20px;
     margin-bottom: 30px;
     color: #15B392;
+}
+
+.help-heading {
+    padding-top: 20px;
+    margin-bottom: 30px;
+    color: white;
 }
 
 .players {
@@ -104,7 +116,8 @@ a {
     flex-direction: column;
 }
 
-.player-info {
+.player-info,
+.help-info {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -121,6 +134,19 @@ a {
 }
 
 .player-info > a {
+    color: black;
+    font-family: "alt-gothic";
+}
+
+.help-info > h1 {
+    color: white;
+}
+
+.help-info > p {
+    font-size: 25px;
+}
+
+.help-info > a {
     color: black;
     font-family: "alt-gothic";
 }
