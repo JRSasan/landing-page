@@ -114,6 +114,7 @@ a {
 .image-set {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .player-info,
@@ -149,6 +150,35 @@ a {
 .help-info > a {
     color: black;
     font-family: "alt-gothic";
+}
+
+.final {
+    font-size: 40px
+}
+
+.featured {
+    font-size: 30px
+}
+
+.join {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.join > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.join > div > span {
+    margin-bottom: 20px;
+}
+
+.join > div > h1 {
+    color: #15B392;
 }
 
 .player-img {
@@ -230,3 +260,36 @@ a {
     font-weight: 900;
 }
 
+
+.main-article-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #15B392;
+}
+
+.main-article-page > h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "alt-gothic";
+}
+
+.main-article-page > span {
+    font-family: "omnes";
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.main-article-page > .image-set{
+    text-align: center;
+    font-family: "alt-gothic";
+    margin-bottom: 50px;
+}
+
+.main-article-page > article{
+    max-width: 800px;
+    font-size: 20px;
+    font-family: "alt-gothic";   
+}
